@@ -16,8 +16,7 @@
 
 2. 配置 文件
 
-   - 创建以下目录 modules 暂且可以不用去管 ( 全局的 store 本列不会用到)![image-20200521151703496](public\reduxStore.png)
-
+   - 在 src 下创建目录 store
    - /store/index
 
      ```typescript
@@ -126,7 +125,7 @@
 
 3. TodoList 业务代码
 
-   - 首先开始先创建文件![image-20200521153802754](public\reduxStore.png)
+   - 在 pages 中创建 todo 文件夹
 
    - todo/todo.tsx
 
@@ -562,13 +561,13 @@
    - 指令代码完成还需要在 package 中简单的配置一下
 
      ```javascript
-     // 在 script 中添加指令 yarn tep  来启动
+     // 在 script 中添加指令 yarn tep dvaTod(文件名) 来启动
      "scripts": { 
      	"tep": "node ./script/tep"
      }
      ```
 
-   - 当使用 yarn / npm 启动以后会发现page中生成了一下文件![image-20200521155908009](public\devPage.png)
+   - 当使用 yarn / npm tep dvaTod(文件名) 启动以后会发现pageS中生成了你输入的文件夹名 dvaTodo
 
    - 需要注意的是 因为没有用到 API 所以 service 是直接删掉就好 以免报错
 
