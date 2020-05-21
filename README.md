@@ -16,7 +16,7 @@
 
 2. 配置 文件
 
-   - 创建以下目录 modules 暂且可以不用去管 ( 全局的 store 本列不会用到)![image-20200521151703496](C:\Users\JuJuBoy\AppData\Roaming\Typora\typora-user-images\image-20200521151703496.png)
+   - 创建以下目录 modules 暂且可以不用去管 ( 全局的 store 本列不会用到)![image-20200521151703496](public\reduxStore.png)
 
    - /store/index
 
@@ -126,7 +126,7 @@
 
 3. TodoList 业务代码
 
-   - 首先开始先创建文件![image-20200521153802754](C:\Users\JuJuBoy\AppData\Roaming\Typora\typora-user-images\image-20200521153802754.png)
+   - 首先开始先创建文件![image-20200521153802754](public\reduxStore.png)
 
    - todo/todo.tsx
 
@@ -568,7 +568,7 @@
      }
      ```
 
-   - 当使用 yarn / npm 启动以后会发现page中生成了一下文件![image-20200521155908009](C:\Users\JuJuBoy\AppData\Roaming\Typora\typora-user-images\image-20200521155908009.png)
+   - 当使用 yarn / npm 启动以后会发现page中生成了一下文件![image-20200521155908009](public\devPage.png)
 
    - 需要注意的是 因为没有用到 API 所以 service 是直接删掉就好 以免报错
 
